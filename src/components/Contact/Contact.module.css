@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #68c298;
+  border-radius: 15px;
+  width: 340px;
+}
+
+.itemContact {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.itemContact:first-child {
+  margin-bottom: 10px;
+}
